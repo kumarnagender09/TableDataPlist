@@ -22,6 +22,18 @@
             <key>Description</key>
             <string>Description for Item 3</string>
         </dict>
+        <dict>
+            <key>Title</key>
+            <string>Item 4</string>
+            <key>Description</key>
+            <string>Description for Item 3</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>Item 5</string>
+            <key>Description</key>
+            <string>Description for Item 3</string>
+        </dict>
     </array>
 </dict>
 </plist>
