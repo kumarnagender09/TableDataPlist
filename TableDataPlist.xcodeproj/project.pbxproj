@@ -16,8 +16,10 @@
 		E10160072BFB944A00EF62EF /* TableDataPlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10160062BFB944A00EF62EF /* TableDataPlistTests.swift */; };
 		E10160112BFB944A00EF62EF /* TableDataPlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10160102BFB944A00EF62EF /* TableDataPlistUITests.swift */; };
 		E10160132BFB944A00EF62EF /* TableDataPlistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10160122BFB944A00EF62EF /* TableDataPlistUITestsLaunchTests.swift */; };
-		E10160202BFB960E00EF62EF /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = E101601F2BFB960E00EF62EF /* Data.plist */; };
 		E10160232BFB966700EF62EF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10160222BFB966700EF62EF /* DataModel.swift */; };
+		E124F8702BFE249C00ED5A26 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = E124F86F2BFE249C00ED5A26 /* statedictionary.plist */; };
+		E124F8722BFE27C700ED5A26 /* StateZipCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124F8712BFE27C700ED5A26 /* StateZipCodeVC.swift */; };
+		E124F8742BFE388000ED5A26 /* ZipCodeUpdateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124F8732BFE388000ED5A26 /* ZipCodeUpdateVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +53,10 @@
 		E101600C2BFB944A00EF62EF /* TableDataPlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableDataPlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10160102BFB944A00EF62EF /* TableDataPlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataPlistUITests.swift; sourceTree = "<group>"; };
 		E10160122BFB944A00EF62EF /* TableDataPlistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataPlistUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E101601F2BFB960E00EF62EF /* Data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
 		E10160222BFB966700EF62EF /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		E124F86F2BFE249C00ED5A26 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		E124F8712BFE27C700ED5A26 /* StateZipCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateZipCodeVC.swift; sourceTree = "<group>"; };
+		E124F8732BFE388000ED5A26 /* ZipCodeUpdateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeUpdateVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,8 @@
 		E1015FEE2BFB944900EF62EF /* TableDataPlist */ = {
 			isa = PBXGroup;
 			children = (
+				E124F86F2BFE249C00ED5A26 /* statedictionary.plist */,
 				E10160212BFB964800EF62EF /* model */,
-				E101601F2BFB960E00EF62EF /* Data.plist */,
 				E1015FEF2BFB944900EF62EF /* AppDelegate.swift */,
 				E1015FF12BFB944900EF62EF /* SceneDelegate.swift */,
 				E1015FF32BFB944900EF62EF /* ViewController.swift */,
@@ -112,6 +116,8 @@
 				E1015FF82BFB944A00EF62EF /* Assets.xcassets */,
 				E1015FFA2BFB944A00EF62EF /* LaunchScreen.storyboard */,
 				E1015FFD2BFB944A00EF62EF /* Info.plist */,
+				E124F8712BFE27C700ED5A26 /* StateZipCodeVC.swift */,
+				E124F8732BFE388000ED5A26 /* ZipCodeUpdateVC.swift */,
 			);
 			path = TableDataPlist;
 			sourceTree = "<group>";
@@ -245,9 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E124F8702BFE249C00ED5A26 /* statedictionary.plist in Resources */,
 				E1015FFC2BFB944A00EF62EF /* LaunchScreen.storyboard in Resources */,
 				E1015FF92BFB944A00EF62EF /* Assets.xcassets in Resources */,
-				E10160202BFB960E00EF62EF /* Data.plist in Resources */,
 				E1015FF72BFB944900EF62EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +281,9 @@
 			files = (
 				E1015FF42BFB944900EF62EF /* ViewController.swift in Sources */,
 				E10160232BFB966700EF62EF /* DataModel.swift in Sources */,
+				E124F8742BFE388000ED5A26 /* ZipCodeUpdateVC.swift in Sources */,
 				E1015FF02BFB944900EF62EF /* AppDelegate.swift in Sources */,
+				E124F8722BFE27C700ED5A26 /* StateZipCodeVC.swift in Sources */,
 				E1015FF22BFB944900EF62EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

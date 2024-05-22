@@ -6,6 +6,7 @@
 //
 
 struct Item {
-    let title: String
-    let description: String
+    let state: String
+    let zipCodes: [String]
 }
+
